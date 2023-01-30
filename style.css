@@ -1,0 +1,242 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Gotham";
+}
+
+header {
+  font-family: "Gotham";
+  font-weight: 700;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.navbar {
+  font-size: 24px;
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  background-image: linear-gradient(to right, #0084CF, #01B2AC);
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px 100px;
+}
+.navbar :active {
+  background: rgba(255, 255, 255, 0.1254901961);
+}
+.navbar :hover {
+  background: #0171B8;
+}
+
+.aside {
+  background: #0084CF;
+  color: #fff;
+  height: 250vh;
+  width: 25%;
+  font-size: 24px;
+  float: left;
+}
+
+.sidebar {
+  padding: 10px;
+}
+.sidebar ul li {
+  align-items: center;
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.sidebar ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-text {
+  margin: auto 10px;
+}
+
+.global {
+  width: 100%;
+  background: #fff;
+}
+
+.main {
+  background: #fff;
+  height: 100vw;
+  padding: 60px;
+  width: 68%;
+  float: right;
+}
+
+.material-symbols-outlined {
+  font-size: 30px !important;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.small {
+  font-size: 13px;
+}
+
+.medium {
+  font-size: 24px;
+  line-height: 200%;
+}
+
+.large {
+  font-size: 40px;
+}
+
+.title {
+  font-family: "Gotham Black";
+  color: #000;
+  text-decoration: none;
+}
+
+.text-title {
+  font-size: 36px;
+}
+
+.right {
+  float: right;
+}
+
+.paragraph {
+  background: #f7f7f7;
+  color: #000;
+  padding: 30px 50px;
+  margin: 50px;
+  border-radius: 20px;
+}
+.paragraph p {
+  font-family: "Gotham Light";
+  margin-top: 10px;
+}
+
+.swiper {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.swiper img {
+  width: 98%;
+  border-radius: 20px;
+}
+
+.swiper-pagination {
+  z-index: 5;
+}
+
+.externo {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #0084CF, #01B2AC);
+}
+.externo img {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.05;
+  position: fixed;
+  top: 0px;
+}
+
+.texto-externo {
+  position: relative;
+  color: #fff;
+  width: 360px;
+  top: 20%;
+  left: 10%;
+  z-index: 1;
+}
+.texto-externo p {
+  font-family: "Gotham Light";
+  text-align: justify;
+  margin: 30px 0px;
+}
+
+.botao-voltar {
+  font-size: 32px;
+  color: #fff;
+  padding: 15px 70px;
+  background: #AB78F7;
+  border: none;
+  border-radius: 50px;
+}
+.botao-voltar :hover {
+  cursor: pointer;
+}
+
+.grid-galeria {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0px 50px 0px;
+}
+.grid-galeria img {
+  margin: 20px 10px;
+  width: 30%;
+}
+
+.grid-albuns {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-albuns img {
+  margin: 20px 10px;
+  width: 30%;
+}
+
+.cards {
+  margin: 30px 0px;
+  display: flex;
+}
+
+.card {
+  background: #f5f5f5;
+  width: 500px !important;
+  padding: 50px;
+  margin: 0px 10px;
+  border-radius: 20px;
+}
+.card a {
+  text-decoration: none;
+  padding: 10px 40px;
+  margin-top: 10px;
+  color: #fff;
+  background: #0084CF;
+  border-radius: 5px;
+}
+
+.pre-footer {
+  display: flex;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background: #0084CF;
+}
+
+footer {
+  display: flex;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 24px;
+  color: #fff;
+  background: #0171B8;
+}/*# sourceMappingURL=style.css.map */
